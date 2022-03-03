@@ -1,0 +1,49 @@
+1. Etap
+
+W klasie FunctionProvider napisz funkcję, która sprawdzi czy przekazana liczba całkowita jest pierwsza.
+
+ - funckja powinna zwracać typ boolean (true/false)
+ - powinna nazywać się isPrime
+ - powinna przyjmować jeden argument - liczbę całkowitoliczbową
+
+ Po napisaniu funkcji odkomentuj część pierwszą funkcji main i porównaj wyjście programu z oczekiwanym wyjściem.
+
+2. Etap
+
+W klasie FunctionProvider napisz funkcję, która zwróci tablicę liczb Fibonacciego.
+ - załóżmy, że pierwsze dwa wyrazy ciągu Fibonacciego to 1, 1
+ - funckja powinna zwracać tablicę liczb całkowitych
+ - powinna nazywać się getFibonacci
+ - powinna przyjmować jeden argument - liczbę całkowitoliczbową (rozmiar zwracanego wektora).
+
+Po skończeniu odkomentuj etap 2.
+
+3. Etap
+
+W klasie FunctionProvider napisz funkcję getFibonacciArrays, która:
+ - przyjmuje tablicę liczb całkowitych 'tab'
+ - zwraca tablicę
+    * zwracana tablica ma długość taką samą jak przekazana
+    * na i-tym miejscu w zwracanej tabeli jest tabela o długości tab[i] wypełniona liczbami Fibonacciego od 1 do i
+
+4. Etap
+
+W klasie FunctionProvider napisz funkcję getPrimeArrays, która:
+ - przyjmuje jako argument liczbę całkowitą n
+ - zwraca macierz A trójkątną dolną n x n
+ - elementy macierzy A spełniają zależność:
+    * A[i][j] = true, jeżeli i + j jest liczbą pierwszą
+    *         = false, jeżeli i + j nie jest liczbą pierwszą
+
+ Uwaga: Dla ułatwienia elementy macierzy A są również indeksowane od 0 do n-1, czyli pierwszy wiersz to [a_00, a_01, ..., a_0(n-1)]
+
+5. Etap
+
+W klasie FunctionProvier napisz funkcję PrintPerson, która:
+ - przyjmuje jeden argument, napis postaci "Imie:Nazwisko:Miasto:Państwo:Wiek"
+ - funkcja ma jedynie wypisać następujące wiersze na konsoli:
+    * imię zapisane wielkimi literami
+    * nazwisko zapisane małymi literami
+    * słowo powstałe po skonkatenowaniu miasta i państwa
+    * wiek zmodyfikowany w taki sposób, że jeżeli wiek jest wyrazem o parzystej długości,
+      to w środek dopisujemy cyfrę 0, jeżeli jest nieparzystej długości, to usuwamy środkową literę

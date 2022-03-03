@@ -42,17 +42,18 @@ public class Main {
 //        System.out.println("Etap 4:");
 //        boolean[][] p2 = f.getPrimeArrays(10);
 //        System.out.println(Arrays.deepToString(p2).replace(", [", ",\n["));
+//        System.out.println();
 //
-//          // ETAP 5
-//          System.out.println("Etap 5:");
-//          String[] data = {
-//                  "Mikołaj:Ryll:Warszawa:Polska:23",
-//                  "Jan:Kowalski:Berlin:Niemcy:112",
-//                  "Hanna:Nowak:Madryt:Hiszpania:6",
-//          };
+//        ETAP 5
+//        System.out.println("Etap 5:");
+//        String[] data = {
+//                "Mikołaj:Ryll:Warszawa:Polska:23",
+//                "Jan:Kowalski:Berlin:Niemcy:112",
+//                "Hanna:Nowak:Madryt:Hiszpania:6",
+//        };
 //
-//          for(String s : data) {
-//              f.PrintPerson(s);
-//          }
+//        for(String s : data) {
+//            f.PrintPerson(s);
+//        }
     }
 }

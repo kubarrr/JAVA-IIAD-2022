@@ -1,0 +1,53 @@
+Etap 1:
+-12 - NOT PRIME
+0 - NOT PRIME
+1 - NOT PRIME
+2 - PRIME
+4 - NOT PRIME
+123 - NOT PRIME
+199 - PRIME
+21377 - PRIME
+7919 - PRIME
+
+Etap 2:
+[  ]
+[ 1  ]
+[ 1 1  ]
+[ 1 1 2 3 5  ]
+[ 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610  ]
+
+Etap 3:
+[[],
+[1, 1, 2, 3, 5],
+[],
+[1],
+[1, 1],
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]]
+
+Etap 4:
+[[false],
+[false, true],
+[true, true, false],
+[true, false, true, false],
+[false, true, false, true, false],
+[true, false, true, false, false, false],
+[false, true, false, false, false, true, false],
+[true, false, false, false, true, false, true, false],
+[false, false, false, true, false, true, false, false, false],
+[false, false, true, false, true, false, false, false, true, false]]
+
+Etap 5:
+MIKOŁAJ
+ryll
+WarszawaPolska
+203
+JAN
+kowalski
+BerlinNiemcy
+12
+HANNA
+nowak
+MadrytHiszpania
+
+
+Process finished with exit code 0
